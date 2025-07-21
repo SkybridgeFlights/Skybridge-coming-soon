@@ -1,0 +1,50 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+.container {
+  background: linear-gradient(to right, #007bff, #00b4d8);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Content */
+.content h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.contact-btn {
+  text-decoration: none;
+  background-color: white;
+  color: #007bff;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #e6e6e6;
+  color: #0056b3;
+}
